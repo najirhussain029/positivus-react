@@ -63,10 +63,10 @@ export const sectionHeadings = {
 export const services = [
   { id: 1, lines: ["Search engine", "optimization"], variant: "light", image: seoImg, alt: "Magnifying glass" },
   { id: 2, lines: ["Pay-per-click", "advertising"], variant: "green", image: ppcImg, alt: "Mouse cursor" },
-  { id: 3, lines: ["Social Media", "Marketing"], variant: "dark", image: socialImg, alt: "Smiley face" },
+  { id: 3, lines: ["Social Media", "Marketing"], variant: "blue", image: socialImg, alt: "Smiley face" },
   { id: 4, lines: ["Email", "Marketing"], variant: "light", image: emailImg, alt: "Envelope" },
   { id: 5, lines: ["Content", "Creation"], variant: "green", image: contentImg, alt: "Document" },
-  { id: 6, lines: ["Analytics and", "Tracking"], variant: "dark", image: analyticsImg, alt: "Bar chart" },
+  { id: 6, lines: ["Analytics and", "Tracking"], variant: "blue", image: analyticsImg, alt: "Bar chart" },
 ];
 
 export const cta = {

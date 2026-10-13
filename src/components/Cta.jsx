@@ -11,7 +11,7 @@ export default function Cta() {
           <p>{cta.text}</p>
           <Button href="#contact">{cta.button}</Button>
         </div>
-        <img className="ph-dark" src={cta.image} alt="Decorative star" />
+        <img className="ph-dark" src={cta.image} alt="Smiling character riding a flying saucer" />
       </div>
     </Section>
   );

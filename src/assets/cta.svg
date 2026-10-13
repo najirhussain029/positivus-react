@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="300" height="300"><circle cx="100" cy="100" r="100" fill="#191a23"/><polygon points="100,30 121.0,79.0 170,100 121.0,121.0 100,170 79.0,121.0 30,100 79.0,79.0" fill="#ffffff"/><polygon points="150,36 154.2,45.8 164,50 154.2,54.2 150,64 145.8,54.2 136,50 145.8,45.8" fill="#b9ff66"/><polygon points="45,140 48.0,147.0 55,150 48.0,153.0 45,160 42.0,153.0 35,150 42.0,147.0" fill="#b9ff66"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 230" fill="none">
+  <g stroke="#191a23" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="140" cy="154" rx="116" ry="22" stroke-width="3"/>
+    <ellipse cx="140" cy="154" rx="116" ry="11" stroke-width="2"/>
+    <circle cx="140" cy="118" r="54" fill="#191a23" stroke-width="3"/>
+    <path d="M122 111c0-9 5-16 11-16s11 7 11 16-5 16-11 16-11-7-11-16Zm37 0c0-9 5-16 11-16s11 7 11 16-5 16-11 16-11-7-11-16Z" fill="white" stroke="none"/>
+    <path d="M126 137c9 14 28 16 40 0" stroke="#b9ff66" stroke-width="7"/>
+    <path d="m222 24 9 24 24 9-24 9-9 24-9-24-24-9 24-9 9-24Z" fill="white" stroke-width="3"/>
+  </g>
+  <path d="m62 177 12 24 24 12-24 12-12 24-12-24-24-12 24-12 12-24Z" fill="#b9ff66"/>
+  <path d="m224 127 8 17 17 8-17 8-8 17-8-17-17-8 17-8 8-17Z" fill="#191a23"/>
+</svg>

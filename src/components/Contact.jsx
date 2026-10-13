@@ -40,7 +40,7 @@ export default function Contact() {
             Send Message
           </Button>
         </form>
-        <img className="ph-contact" src={contact.image} alt="Decorative star" />
+        <img className="ph-contact" src={contact.image} alt="Decorative starburst illustration" />
       </div>
     </Section>
   );

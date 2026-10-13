@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400"><polygon points="100,10 127.0,73.0 190,100 127.0,127.0 100,190 73.0,127.0 10,100 73.0,73.0" fill="#191a23"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <g stroke="#191a23" stroke-width="3">
+    <path d="M160 18v78m0 128v78M18 160h78m128 0h78M59 59l55 55m92 92 55 55m0-202-55 55m-92 92-55 55"/>
+    <path d="m160 78 24 57 57 25-57 24-24 58-24-58-58-24 58-25 24-57Z" fill="#191a23"/>
+    <path d="m244 31 7 17 18 7-18 7-7 18-7-18-18-7 18-7 7-17Z" fill="#b9ff66" stroke="none"/>
+  </g>
+  <path d="m64 225 13 29 29 13-29 13-13 29-13-29-29-13 29-13 13-29Z" fill="#b9ff66"/>
+</svg>
