@@ -6,17 +6,11 @@ import { contact, sectionHeadings } from "../data/data";
 export default function Contact() {
   const { title, text } = sectionHeadings.contact;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Thank you! Your message has been sent.");
-    e.target.reset();
-  };
-
   return (
     <Section id="contact">
       <SectionTitle title={title} text={text} />
       <div className="contact">
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className="radios">
             {contact.options.map((option, i) => (
               <label key={option}>

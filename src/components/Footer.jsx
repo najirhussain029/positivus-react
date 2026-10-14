@@ -38,7 +38,7 @@ export default function Footer() {
               <p key={line}>{line}</p>
             ))}
           </div>
-          <form className="sub" onSubmit={(e) => e.preventDefault()}>
+          <form className="sub">
             <input type="email" placeholder="Email" />
             <Button type="submit" variant="green">
               Subscribe to news

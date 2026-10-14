@@ -263,3 +263,17 @@ body{max-width:100%;overflow-x:clip}
  .acc-head h3{font-size:15px}
  .pm{width:34px;height:34px}
 }
+
+/* Static assignment layout: keep every menu item and content card visible. */
+.acc-head{cursor:default}
+.track{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;transition:none}
+.slide{min-width:0;padding:0}
+
+@media(max-width:767px){
+ .nav{flex-direction:column;align-items:center}
+ .menu{position:static;display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;gap:8px 14px;border:0;border-radius:0;padding:0}
+ .menu>a:not(.btn){font-size:14px}
+ .menu .btn{width:auto;padding:10px 14px;text-align:center;font-size:14px}
+ .track{grid-template-columns:1fr;gap:20px}
+ .slide{padding:0}
+}
