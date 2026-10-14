@@ -119,6 +119,10 @@ export const footer = {
     "Phone: 555-567-8901",
     "Address: 1234 Main St, Moonstone City, Stardust State 12345",
   ],
-  social: ["in", "f", "x"],
+  social: [
+    { id: "linkedin", label: "in", name: "LinkedIn", href: "https://www.linkedin.com/" },
+    { id: "facebook", label: "f", name: "Facebook", href: "https://www.facebook.com/" },
+    { id: "x", label: "X", name: "X", href: "https://x.com/" },
+  ],
   copyright: "© 2023 Positivus. All Rights Reserved.",
 };

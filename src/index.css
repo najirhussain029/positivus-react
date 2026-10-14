@@ -99,7 +99,7 @@ footer.container{margin-top:100px}
 .footer{background:var(--dark);color:#fff;border-radius:45px 45px 0 0;padding:55px 60px 50px}
 .f-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
 .f-top nav{display:flex;gap:40px}.f-top nav a{text-decoration:underline}
-.social{display:flex;gap:15px}.social i{width:28px;height:28px;border-radius:50%;background:#fff;color:var(--dark);display:grid;place-items:center;font-style:normal;font-size:13px;font-weight:700}
+.social{display:flex;gap:15px}.social-icon{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;line-height:1}.social-linkedin,.social-facebook{background:#0a66c2;color:#fff}.social-facebook{background:#1877f2}.social-x{background:#000;color:#fff;font-size:14px}
 .f-mid{display:flex;justify-content:space-between;gap:40px;margin:50px 0;flex-wrap:wrap}
 .f-mid p{margin-top:15px}.f-mid .tag{font-size:18px;color:var(--dark)}
 .sub{display:flex;gap:20px;background:#292a32;padding:50px 40px;border-radius:14px;align-items:center}

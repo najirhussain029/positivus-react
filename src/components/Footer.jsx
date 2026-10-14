@@ -16,8 +16,17 @@ export default function Footer() {
             ))}
           </nav>
           <div className="social">
-            {footer.social.map((s) => (
-              <i key={s}>{s}</i>
+            {footer.social.map((social) => (
+              <a
+                key={social.id}
+                className={`social-icon social-${social.id}`}
+                href={social.href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={social.name}
+              >
+                {social.label}
+              </a>
             ))}
           </div>
         </div>
