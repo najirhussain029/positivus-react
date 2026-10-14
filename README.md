@@ -14,12 +14,10 @@ HTML-to-React conversion of the Positivus digital marketing landing page.
 ## Features
 
 - Responsive landing page for desktop, tablet, and mobile
-- Mobile hamburger navigation
-- Working-process accordion with one item open at a time
-- Testimonial slider with previous/next controls and navigation dots
-- Contact form with required-field validation
+- Static template converted into React (no state management)
 - Cards and repeated content rendered from arrays of objects using `.map()`
 - Reusable UI components and a separate data layer
+- Working-process steps and testimonials displayed as static sections
 
 ## Project Structure
 
